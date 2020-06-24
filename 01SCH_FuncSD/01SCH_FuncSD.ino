@@ -30,7 +30,7 @@ void loop() {
 
 
 bool SD_leerLog() {
-	// Me quede en esta función
+	// Me quede en esta función 
 	SD.begin(SD_CS);
 	if (!SD.begin(SD_CS)) {
 		Serial.println("Error modulo SD!");
